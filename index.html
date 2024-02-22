@@ -19,6 +19,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
       rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -64,13 +65,13 @@
             <ul
               class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
               <li class="nav-item mx-2">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="#home">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Skill</a>
+                <a class="nav-link" href="#skill">Skill</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="#">Portofolio</a>
@@ -96,7 +97,7 @@
     <!-- navbar -->
 
     <!-- content landing page sederhana -->
-    <div class="landing-page text-white rounded-0 mb-5">
+    <div class="section landing-page text-white rounded-0" id="home">
       <div class="container jumbotron d-flex align-items-center justify-content-between">
         <div class="jumbotron-text flex-grow-1">
           <h1>Hai, Nama saya <span style="color: #fbd40d; font-family: 'Concert One', sans-serif;">Ilham Wahyu Hidayat</span></h1>
@@ -107,7 +108,7 @@
           Saya adalah seorang Web Development yang bersemangat tentang menciptakan pengalaman online yang menakjubkan. Saya suka ngoding, terutama pada pembuatan web. Skill saya berfokus pada backend tapi juga bisa ke frontend.
           <br>#Html #Css #Php #JavaScript #Laravel #Codeigniter.<br><i>"Focus! On What's Important."</i>
           </p>
-          <button type="button" class="btn btn-warning rounded-1 mt-3">About Me</button>
+          <a href="#about" type="button" class="btn btn-warning btn-lg rounded-1 mt-3 fw-semibold">About Me</a>
         </div>
         <div class="img-container">
           <img
@@ -120,110 +121,135 @@
       <div class="wave">
       </div>
     </div>
-    <!--  -->
+    <!-- content landing page sederhana -->
+     
+    <!-- content About us -->
+      <div class="section card text-center mb-5 border-0 rounded-0" style="background-color: #ecedef; min-height: 50vh;" id="about">
+        <div class="container">
+          <div class="card-body" style="margin-top: 47px; margin-bottom: 47px;">
+            <h2 class="card-title mx-auto fw-bolder" style="color: #007CA0;">About Me</h2>
+            <div class="border-bottom border-yellow border-3 mb-5" style="width: 205px; margin: auto;"></div>
+            <p class="card-text fs-6" data-aos="zoom-in-up" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquam asperiores error explicabo quibusdam quo tenetur totam molestiae, deleniti reiciendis aliquid tempora delectus voluptatum aspernatur beatae nostrum animi. Consequatur nobis commodi temporibus expedita cumque pariatur sint officiis ullam, maxime veniam est nihil voluptatum asperiores aliquid necessitatibus explicabo laboriosam vero porro dolorem eum fugit. Vero maxime odit eos animi eius reiciendis repellat, pariatur laboriosam voluptatem quaerat? Dolores repudiandae nobis assumenda cumque.</p>
+          </div>
+        </div>
+      </div>
+    <!-- content About us -->
 
+    <!-- content Skill -->
+    <div class="section" id="skill">
+      <div class="container">
+        <div class="text-center" style="margin-top: 70px;">
+          <h2 class="card-title mx-auto fw-bolder" style="color: #007CA0;">Skill</h2>
+          <div class="border-bottom border-yellow border-3 mb-4" style="width: 205px; margin: auto;"></div>
+        </div>
 
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card mb-3">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <div class="row text-center pt-5">
+          <div class="col-4 col-sm-2 mx-auto mb-3">
+            <img src="/image/html.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+          <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+            <img src="/image/css.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+          <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+            <img src="/image/php.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+          <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+            <img src="/image/javascript.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+          <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+            <img src="/image/laravel.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+          <div class="col-4 col-sm-2 mx-auto">
+            <img src="/image/codeigniter.png" class="card-img" alt="img" style="width: 100px">
+          </div>
+        </div>
       </div>
     </div>
 
 
-    <script
+    <div class="row text-center pt-5">
+      <div class="col-4 col-sm-2 mx-auto mb-3">
+        <img src="/image/html.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/css.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/php.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/javascript.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/laravel.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto">
+        <img src="/image/codeigniter.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+    </div>
+    <div class="row text-center pt-5">
+      <div class="col-4 col-sm-2 mx-auto mb-3">
+        <img src="/image/html.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/css.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/php.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/javascript.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/laravel.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto">
+        <img src="/image/codeigniter.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+    </div>
+    <div class="row text-center pt-5">
+      <div class="col-4 col-sm-2 mx-auto mb-3">
+        <img src="/image/html.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/css.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/php.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/javascript.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto mb-3 mb-sm-0">
+        <img src="/image/laravel.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+      <div class="col-4 col-sm-2 mx-auto">
+        <img src="/image/codeigniter.png" class="card-img" alt="img" style="width: 100px">
+      </div>
+    </div>
+      
+    <!-- content Skill -->
+
+
+
+
+
+    <button class="btn btn-yellow-dark rounded-1" style="height: 42px;" id="Btntop"><i class="fa-solid fa-chevron-up fa-lg "></i></button>
+
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/navbar-active-scroll.js"></script>
+    <script src="assets/js/scroll-top.js"></script>
 
     <script>
       var nav = document.querySelector('nav');
@@ -235,5 +261,28 @@
         }
       })
     </script>
+
+    <script>
+      AOS.init();
+    </script>
+
+  <script>
+    // Menangani scroll halus saat tautan navbar diklik
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        const navbarHeight = document.querySelector('.navbar').offsetHeight; // Tinggi navbar
+
+        window.scrollTo({
+          top: targetElement.offsetTop - navbarHeight, // Menyesuaikan dengan tinggi navbar
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
   </body>
 </html>
