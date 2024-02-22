@@ -48,7 +48,7 @@
 
 .landing-page {
   background: linear-gradient(to right, #006B5E, #007DA4);
-  color: white;
+  color: white; 
   height: 100%;
   position: relative;
 }
@@ -270,6 +270,47 @@
   color: #fff;
 }
 
+.progress-container {
+  position: relative;
+}
+
+.progress-percent {
+  float: right;
+}
+
+.progress-bar {
+  background-color: #007DA2 !important;
+  animation: animate-progress 2s;
+}
+
+@-webkit-keyframes animate-progress {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes animate-progress {
+  0% {
+    width: 0;
+  }
+}
+
+.zoom{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+/* .text-projects h4{
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+.text-projects:hover h4 {
+  transform: scale(1.1);
+} */
 
 /* .landing-page.card-body {
     display: flex;
