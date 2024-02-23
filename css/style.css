@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Arimo", sans-serif;
+  font-family: "Encode Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -198,7 +199,7 @@
 /* background landing-page */
 
 .jumbotron-text h1 {
-  font-family: "Concert One", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 45px;
 }
 
