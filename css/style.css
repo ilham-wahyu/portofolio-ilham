@@ -297,28 +297,48 @@
   }
 }
 
-.zoom{
+.zoom img{
   transform: scale(1);
   transition: 0.3s ease-in-out;
 }
 
-.zoom:hover {
+.zoom {
+  overflow: hidden;
+}
+
+.zoom:hover img{
   transform: scale(1.1);
 }
 
-/* .text-projects h4{
-  transform: scale(1);
-  transition: 0.5s ease-in-out;
+.card-img-top {
+  height: 360px;
 }
-.text-projects:hover h4 {
-  transform: scale(1.1);
-} */
 
-/* .landing-page.card-body {
-    display: flex;
-    align-items: center;
-} */
+.maps-responsive {
+  max-width: 500px;
+}
 
-/* .card-body .landing-page img {
-    margin-left: 10px;
-} */
+.maps {
+  width: 100%;
+  border: 2px solid #fbd40d;
+  border-radius: 3px;
+}
+
+.btn-primary-contact{
+  background-color: #007DA2 !important;  
+  border: 0 !important;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.btn-primary-contact:focus {
+  background-color: #007DA2 !important;
+}
+
+.btn-primary-contact:hover{
+  background-color: #007DA2 !important;
+}
+
