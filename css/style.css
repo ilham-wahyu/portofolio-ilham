@@ -253,7 +253,6 @@
   right: 17px;
   z-index: 1;
   cursor: pointer;
-  display: none;
 }
 
 .btn-yellow-dark {
@@ -278,23 +277,6 @@
 
 .progress-percent {
   float: right;
-}
-
-.progress-bar {
-  background-color: #007DA2 !important;
-  animation: animate-progress 2s;
-}
-
-@-webkit-keyframes animate-progress {
-  0% {
-    width: 0;
-  }
-}
-
-@keyframes animate-progress {
-  0% {
-    width: 0;
-  }
 }
 
 .zoom img{
@@ -342,3 +324,6 @@
   background-color: #007DA2 !important;
 }
 
+.progress-bar {
+  background-color: #007DA2 !important;
+}
