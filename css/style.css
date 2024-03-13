@@ -297,14 +297,10 @@
   height: 360px;
 }
 
-.maps-responsive {
-  max-width: 500px;
-}
-
-.maps {
-  width: 100%;
-  border: 2px solid #fbd40d;
-  border-radius: 3px;
+.my-photo {
+  width: 400px;
+  border-radius: 5%;
+  max-height: 400px;
 }
 
 .btn-primary-contact{
