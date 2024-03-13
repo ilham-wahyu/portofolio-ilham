@@ -301,6 +301,7 @@
   width: 400px;
   border-radius: 5%;
   max-height: 400px;
+  pointer-events: none;
 }
 
 .btn-primary-contact{
