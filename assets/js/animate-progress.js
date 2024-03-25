@@ -19,5 +19,5 @@ $(".progress-bar-laravel").animate({
 }, 1700);
 
 $(".progress-bar-ci").animate({ 
-    width: "80%", 
+    width: "75%", 
 }, 1700);
