@@ -294,7 +294,11 @@
 }
 
 .card-img-top {
-  height: 360px;
+  height: 300px;
+}
+
+#setifikatBnsp {
+  height: 500px;
 }
 
 .my-photo {
