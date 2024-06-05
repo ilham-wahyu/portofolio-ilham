@@ -22,5 +22,5 @@ $(".progress-bar-ci").animate({
     width: "75%", 
 }, 1700);
 $(".progress-bar-corel").animate({ 
-    width: "75%", 
+    width: "90%", 
 }, 1700);
