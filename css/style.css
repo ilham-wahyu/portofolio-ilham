@@ -219,17 +219,17 @@
 .btn-warning {
   background-color: #fbd40d !important;
   border: 0;
-  color: #fff;
+  color: #000;
 }
 
 .btn-warning:focus {
   background-color: #fbd40d !important;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .btn-warning:hover {
   background-color: #e3be06 !important;
-  color: #fff;
+  color: #000;
 }
 
 .navigasi-scroll {
