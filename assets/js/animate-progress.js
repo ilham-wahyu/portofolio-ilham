@@ -24,3 +24,6 @@ $(".progress-bar-ci").animate({
 $(".progress-bar-corel").animate({ 
     width: "90%", 
 }, 1700);
+$(".progress-bar-canva").animate({ 
+    width: "90%", 
+}, 1700);
